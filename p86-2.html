@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>p86-2</title>
+</head>
+<body>
+<script>
+    var a = 2;
+    function foo() {
+        console.log(this.a);
+    }
+    function doFoo() {
+        foo();
+    }
+    doFoo();
+</script>
+</body>
+</html>
